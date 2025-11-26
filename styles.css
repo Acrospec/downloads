@@ -1,0 +1,93 @@
+/* ----- GENERAL ----- */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #0d0f16;
+    color: #e6e6e6;
+}
+
+/* ----- HERO ----- */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1d1f29, #11131a);
+    border-bottom: 1px solid #22252f;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #b0b6c4;
+}
+
+/* ----- DOWNLOAD CARDS ----- */
+.downloads-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.download-card {
+    background: #161922;
+    padding: 30px;
+    border-radius: 14px;
+    border: 1px solid #22252f;
+    transition: transform 0.25s, box-shadow 0.25s;
+    position: relative;
+}
+
+.download-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.download-card h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+/* ----- BUTTONS ----- */
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 7px;
+    background: #242837;
+    color: #e6e6e6;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    background: #303548;
+}
+
+.primary {
+    background: #4c7fff;
+    color: #fff;
+}
+
+.primary:hover {
+    background: #3c69d6;
+}
+
+.full {
+    width: 100%;
+    text-align: center;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    color: #6e7485;
+    font-size: 0.9rem;
+}
